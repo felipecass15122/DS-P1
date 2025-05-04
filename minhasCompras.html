@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/produtos.css">
+  <title>Minhas Compras - MY Shop</title>
+</head>
+<body>
+
+    <header>
+        <div id = "title">
+            <h1 class= "logoheader">MY</h1>
+            <h1 class="logoheader">Shop</h1>
+        </div>
+        <ul>
+            <a href="produtos.html" class="btn-menu"> <li>Produtos</li></a>
+            <a href="minhasCompras.html" class="btn-menu"> <li>Minhas Compras</li></a>           
+        </ul>
+    </header>
+
+  <main>
+    <!-- Seção de notificações -->
+    <section id="alertas">
+      <div class="notifications" id="notifications">
+        <h2>Notificações</h2>
+        <ul class="notification-list">
+          <!-- Notificações serão inseridas dinamicamente -->
+        </ul>
+      </div>
+      <div id="section-cadastra-alert">
+        <button class="btn">Cadastrar alerta</button>
+      </div>
+    </section>
+
+    <!-- Listagem de produtos -->
+    <section class="product-list" id="productList">
+      <!-- Os cards de produto serão inseridos aqui pelo app.js -->
+    </section>
+
+  </main>
+
+  <!-- Script de listagem dinâmica -->
+  <script src="js/minhasCompras.js"></script>
+</body>
+</html>

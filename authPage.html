@@ -1,45 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/auth.css">
     <link rel="stylesheet" href="styles/styles.css">
-    <title>Document</title>
+    <title>Login - Plataforma</title>
 </head>
 <body>
-   
 
-<div class = "container-row">
-    <div class= "container-login">
-    
-        <div class = "center-col">
-            <h2>
-                Acessar a plataforma
-            </h2>    
-            <form class = "column">
-                <div class = "column">
-                    <div id = "codigo" class = "center-col">
-                        <input type = "text"  placeholder = "Codigo"  id = "cod" >
+<div class="container-row">
+    <div class="container-login">
+        <div class="center-col">
+            <h2>Acessar a plataforma</h2>
+
+            <!-- Formulário de login -->
+            <form id="formulario" action="#" method="post" class="column">
+                <div class="column">
+                    <div class="center-col">
+                        <input type="text" name="login" id="login" placeholder="Login">
                     </div>
-                    <div  id = "password" class = "center-col">
-                        <input type = "password"  placeholder = "Senha" id = "senha" >
-                    </div >
+                    <div class="center-col">
+                        <input type="password" name="senha" id="senha" placeholder="Senha">
+                    </div>
                 </div>
-            
-                <div class = "center-col">
-                    <input type="submit" value="Entrar" class="btn">
-                </div>        
-            
-        
-            
-            
+                <div class="center-col">
+                    <button type="submit" class="btn">Entrar</button>
+                </div>
             </form>
         </div>
     </div>
 </div>
 
-
-
+<!-- Scripts: ordem correta -->
+<!-- 1. jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- 2. jQuery Validation Plugin -->
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+<!-- 3. Seu script de autenticação/validação -->
+<script src="js/auth.js"></script>
 </body>
 </html>
