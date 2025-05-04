@@ -31,4 +31,18 @@ body{
     align-content: center;
 }
 
+@media (max-width: 600px) {
+    .container-login {
+      width: 80%;
+      height: auto;
+      padding: 30px 20px;
+      border-radius: 10px;
+    }
+  
+    body {
+      padding: 10px;
+      align-items: flex-start;
+    }
+  }
+
 
