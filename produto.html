@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/produto.css">
+    <title>Produto</title>
+</head>
+<body>
+
+    <header>
+        <div id = "title">
+            <h1 class= "logoheader">MY</h1>
+            <h1 class="logoheader">Shop</h1>
+        </div>
+        <ul>
+            <a href="produtos.html" class="btn-menu"> <li>Produtos</li></a>
+            <a href="minhasCompras.html" class="btn-menu"> <li>Minhas Compras</li></a>     
+        </ul>
+    </header>
+
+    <main class="product-page">
+        <img id="product-img" src="https://via.placeholder.com/800x400" alt="Imagem do Produto" class="product-image" />
+      
+        <h1 id="product-title" class="product-title">Título do Produto</h1>
+      
+        <p id="product-desc" class="product-desc">Descrição do produto.</p>
+      
+        <div id="product-price" class="product-price">R$ 0,00</div>
+      
+        <div class="btn-group">
+          <button class="btn" id = "comprar">Comprar</button>
+          <button class="btn">Ativar Alerta de Preço</button>
+        </div>
+    </main>
+    <script src="js/getProduto.js"></script>
+</body>
+</html>
