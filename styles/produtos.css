@@ -72,6 +72,9 @@
     border: 1px solid #bfbfbf;
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    max-height: 200px;
+    overflow-x: hidden;
+    overflow-y: scroll;
   }
   
   .notifications h2 {
@@ -90,7 +93,9 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #bfbfbf;
-  }
+    width: 90vw;
+    padding: 10px;
+}
   
   .notification-item:last-child {
     border-bottom: none;
